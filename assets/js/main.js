@@ -7,12 +7,8 @@ function evento(){
 };
 
 function load(){
-	var cuerpo = document.querySelector("body");
-	cuerpo.addEventListener("load", function(){
-		     alert("La página esta cargada");
-	})
+	alert("La página esta cargada");
 };
-
 
 function input(){
 	var encima = document.getElementById('input');
@@ -26,6 +22,5 @@ function input(){
 	})
 
 };
-load();
-input();
 
+input();
